@@ -1,0 +1,62 @@
+<!--Creator: Mirzokhid Ganiev.
+    Age when completed: 15 years old.
+    Grade: 09c
+    Date Finished: Friday, 13th December 2019
+    Location: Dubai, UAE
+-->
+
+<!--About: Quize on cars, school project-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href ="car.css" rel ="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <script src = "cars.js"></script>
+    </head>
+<body>
+    <p>By: Mirzokhid Ganiev 9c</p>
+    <h1 class="title">Choose the rigth answer:</h1><br><br>
+    <form id="quiz" name="quiz1">
+        <p>Which car is this?</p>
+        <img src="car1.png" alt="BMW 1 Series 5-door" width="250" height="150"><br>
+        <input type="radio" id="mc" name="question1" value="BMW_1_Series_5_door">BMW 1 Series 5-door<br>
+        <input type="radio" id="mc" name="question1" value="BMW_2_Series_Coupé">BMW 2 Series Coupé<br>
+        <input type="radio" id="mc" name="question1" value="BMW_4_Series_Coupé">BMW 4 Series Coupé<br>
+    </form>
+    <form id="quiz" name="quiz2">
+        <p>Which car is this?</p>
+        <img src="toyato.png" alt="BMW 1 Series 5-door" width="230" height="150"><br>
+        <input type="radio" id="mc" name="question2" value="Camry 2020">Camry 2020<br>
+        <input type="radio" id="mc" name="question2" value="Yaris SedaN 2019">Yaris SedaN 2019<br>
+        <input type="radio" id="mc" name="question2" value="Supra 2020">Supra 2020<br>
+    </form>
+    <form id="quiz" name="quiz3">
+        <p>Which car is this?</p>
+        <img src="download.jfif" alt="BMW 1 Series 5-door" width="230" height="150"><br>
+        <input type="radio" id="mc" name="question3" value="Volco XC30">Volco XC30<br>
+        <input type="radio" id="mc" name="question3" value="Volvo XC40">Volvo XC40<br>
+        <input type="radio" id="mc" name="question3" value="Volvo XC60">Volvo XC60<br>
+    </form>
+    <form id="quiz" name="quiz4">
+        <p>Which car is this?</p>
+        <img src="download(1).jfif" alt="BMW 1 Series 5-door" width="230" height="150"><br>
+        <input type="radio" id="mc" name="question4" value="Bentayga">Bentayga<br>
+        <input type="radio" id="mc" name="question4" value="Bentayga V8">Bentayga V8<br>
+        <input type="radio" id="mc" name="question4" value="Mulsanne Speed">Mulsanne Speed<br>
+    </form>
+        <form id="quiz" name="quiz5">
+        <p>Which car is this?</p>
+        <img src="download (2).jfif" alt="BMW 1 Series 5-door" width="230" height="150"><br>
+        <input type="radio" id="mc" name="question5" value="The BMW 4 Series Convertible">The BMW 4 Series Convertible<br>
+        <input type="radio" id="mc" name="question5" value="The BMW 2 Series Coupe">The BMW 2 Series Coupe<br>
+        <input type="radio" id="mc" name="question5" value="The BMW 1 Series">The BMW 1 Series<br>
+    </form> 
+    <input id = "button" type = "button" value = "I'm finished!" onclick = "check();" class="button">
+    <input id="buttons" type="button" value="Restart" onclick="javascript:location.reload(true)"><br><br>
+    <div id = "after_submit">
+        <p id = "number_correct"></p>
+        <p id = "message"></p>
+        <img id = "picture">
+    </div>
+</body>
+</html>
